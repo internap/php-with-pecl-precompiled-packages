@@ -9,7 +9,7 @@ RUN apt-get update -q && DEBIAN_FRONTEND=noninteractive apt install -y libmcrypt
 
 RUN pecl install memcached-3.0.4 \
     redis-4.1.1 \
-    mongodb-1.5.2 \
+    mongodb-1.4.4 \
     mcrypt-1.0.1
 
 RUN docker-php-ext-enable memcached redis mongodb mcrypt

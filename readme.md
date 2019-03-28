@@ -10,9 +10,8 @@ For now the project provides images for -alpine and -apache variant of the offic
 
 [https://hub.docker.com/_/php/](https://hub.docker.com/_/php/)
 
-php7.2-alpine-mcrypt-memcached-mongodb-redis:1.0
-
-php7.2-apache-mcrypt-memcached-mongodb-redis:1.0
+internap/php-with-pecl-precompiled-packages:php7.2-mcrypt-memcached-mongodb-redis-alpin
+internap/php-with-pecl-precompiled-packages:php7.2-apache-mcrypt-memcached-mongodb-redis-apache
 
 
 
@@ -22,5 +21,5 @@ This was taken experimetally
 
 | VARIANT | SIZE   |
 | ------- | -------|
-| apache  | ~440MB |
-| alpine  | ~318MB |
+| apache  | ~172MB |
+| alpine  | ~115MB |
