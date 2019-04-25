@@ -5,7 +5,8 @@ RUN apt-get update -q && DEBIAN_FRONTEND=noninteractive apt install -y libmcrypt
     zlib1g-dev=1:1.2.8.* \
     libmemcached-dev=1.0.18-4.1 \
     gnupg2=2.1.18-8* \
-    fontconfig=2.11.0-*
+    fontconfig=2.11.0-* \
+  && rm -rf /var/lib/apt/lists/*
 
 RUN pecl install memcached-3.0.4 \
     redis-4.1.1 \
