@@ -1,4 +1,4 @@
-FROM php:7.2.9-apache@sha256:42bbbfb881af0d50f8cee436b7645589798e6f17eeec8e63d59239b24d77254c
+FROM php:7.2.34-apache@sha256:765365bf1dba8c46bdc198860d9fc183861c309049823d4174d32f9707b037d8
 
 RUN apt-get update -q && DEBIAN_FRONTEND=noninteractive apt install -y libmcrypt-dev=2.5.8-3.3 \
     libcurl4-gnutls-dev=7.52.1-* \
